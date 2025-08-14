@@ -30,6 +30,6 @@ export const router = createBrowserRouter(
     },
   ],
   {
-    fallbackElement: <div>Loading...</div>, // 👈 сюди твій спінер
+    fallbackElement: <div>Loading...</div>, 
   }
 );
