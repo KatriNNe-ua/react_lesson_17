@@ -11,7 +11,7 @@
 // src/app/router/appRouterRoutes.js
 
 //динамічні імпорти працюють коректно локально, 
-// але можуть викликати проблеми під час продакшен-збірки на Netlify
+// але викликали проблеми під час продакшен-збірки на Netlify
 //тому необхідно використовувати import.meta.glob
 
 import { frontRoutes } from '@/shared/config/routes/frontRoutes'
